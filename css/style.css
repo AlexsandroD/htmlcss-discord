@@ -153,6 +153,10 @@ main .container aside{
     height: 100%;
 }
 
+main .container aside img{
+    object-fit: cover;
+}
+
 
 
 footer{
