@@ -11,7 +11,7 @@
     margin: auto;
 }
 
-.clearfix{
+.clearfix::after{
     content: '';
     display: table;
     clear: both;
@@ -193,6 +193,13 @@ main .container aside img{
     display: inline-block;
     width: 100%;
     }
+
+.bg-star{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    height: 20px;
+    text-align: center;
+}
 
 
 
