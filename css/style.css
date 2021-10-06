@@ -21,6 +21,10 @@
     float: left;
 }
 
+.right{
+    float: right;
+}
+
 a{
     text-decoration: none;
 }
@@ -145,19 +149,60 @@ header .container nav{
 
 /* main section   */
 main{
-    width: 100%;
+    width: 80%;
+    height: 100%;
+    margin: auto;
 }
 
 main .container aside{
-    width: 50%;
-    height: 100%;
+    margin: 50px 0;
 }
+     
+
+
+
+
+main .container h2{
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+
+}
+
+main .container p{
+    line-height: 1.4;
+    padding-right: 30px;
+    color: lightslategrey;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.width-60{
+    width: 60%;
+}
+
+.width-40{
+    width: 40%;
+}
+
+
 
 main .container aside img{
-    object-fit: cover;
+    display: inline-block;
+    width: 100%;
+    }
+
+
+
+.bg-star{
+    background-image: url(/img/stars.svg);
+    background-size: cover;
 }
 
 
+
+/* inizio footer  */
 
 footer{
     height: 500px;
@@ -166,28 +211,28 @@ footer{
 /* debug */
 
 
-.debug #jumbo{
+/* .debug #jumbo{
     background-color:pink ;
 }
 
 .debug main{
-    background-color: red;
-    height: 600px;
+    background-color: white;
+    height: 600px; */
 }
 
-.debug section  {
+/* .debug section  {
     height: 200px;
     background-color: yellow;
-}
+} */
 
 .debug footer{
     background-color: grey;
 }
-
+/* 
 .debug aside{
     background-color:green;
     border: 0px solid black;
-}
+} */
 
 /* 
 .debug header{
@@ -203,3 +248,6 @@ footer{
 .debug #accedi{
     height: 80px;
     /* background-color: blues; */
+
+
+    
